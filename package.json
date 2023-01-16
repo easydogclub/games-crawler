@@ -1,0 +1,29 @@
+{
+  "name": "marktion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sls.js",
+  "scripts": {
+    "start": "vite app/web",
+    "dev": "tsc -b ./tsconfig.dist.json --watch",
+    "build": "tsc -b ./tsconfig.dist.json",
+    "clean": "rm -rf ./packages/*/*.tsbuildinfo ./packages/*/dist",
+    "clean:force": "npm run clean && rm -rf ./*/node_modules ./node_modules",
+    "pretty": "prettier --write \"./**/*.{ts,tsx,json}\""
+  },
+  "author": "yugasun",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.2.2",
+    "prettier": "^2.5.1",
+    "shx": "^0.3.4",
+    "typescript": "4.6.2"
+  }
+}

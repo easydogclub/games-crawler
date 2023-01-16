@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "references": [
+    {
+      "path": "./apps/swtich-games-crawler/tsconfig.json"
+    },
+  ],
+  "exclude": ["./packages/mtapp-web", "./packages/*/__test__"]
+}
