@@ -1,23 +1,6 @@
-# gonote
+# GAME CRAWLER
 
-notion like block editor
+# reference
 
-## Quick Start
-
-1. install dependences
-
-```shell
-pnpm i
-```
-
-2. watch compile
-
-```shell
-pnpm run build
-```
-
-3. serve
-
-```shell
-pnpm start
-```
+https://github.com/bda-research/node-crawler#raw-body
+https://github.com/haarlemmer/CTFile-Auto-Download/blob/master/CTFile.py
